@@ -1,0 +1,145 @@
+.menu {
+  text-align: center;
+  background-color: #0288d1;
+  background-position: relative;
+  width: 100%;
+  height: 50px;
+}
+header {
+}
+
+h1,
+p {
+  text-align: center;
+  font-family: "Patua One";
+  line-height: 0px;
+}
+
+p {
+  font-size: 30px;
+  padding: 20px;
+  background-color: #c62828;
+}
+
+a {
+  font-family: "Archivo Narrow";
+  padding: 20px;
+}
+.home {
+  background-color: #1e88e5;
+  color: #fff;
+  text-decoration: none;
+  margin: 0 auto;
+  padding: 0px 40px;
+  transition: background-color 1s, color 1s, border 0.25s;
+}
+
+.home:hover {
+  background-color: #82b1ff;
+  color: #212121;
+  border-bottom: 2px solid white;
+}
+
+.aboutme {
+  background-color: #1e88e5;
+  color: #fff;
+  text-decoration: none;
+  margin: 0 auto;
+  padding: 0px 30px;
+  transition: background-color 1s, color 1s, border 0.25s;
+}
+
+.aboutme:hover {
+  background-color: #82b1ff;
+  color: #212121;
+  border-bottom: 2px solid white;
+}
+
+th {
+  font-family: "Fjalla One";
+  color: GhostWhite;
+  background-color: #1a237e;
+  opacity: 0.9;
+  padding: 0px;
+  margin: 0 auto;
+}
+
+td {
+  font-family: "Archivo Narrow";
+  font-weight: bold;
+  background-color: #1e88e5;
+  opacity: 0.85;
+  padding: 5px;
+}
+.contact {
+}
+
+.hours {
+  text-align: center;
+  transform: translate(100px, 0px);
+}
+
+tr {
+}
+
+.cars,
+.trucks,
+.suvs,
+.other {
+  color: #ffebee;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family: Yantramanav;
+  font-weight: bold;
+  background-color: #d50000;
+  margin: 10px;
+  padding: 0 20px;
+
+  transition: color 0.5s, background-color 1s, border-top 0.25s;
+}
+
+.cars:hover,
+.trucks:hover,
+.suvs:hover,
+.other:hover {
+  color: #3e2723;
+  background-color: #ef6c00;
+  border-top: 2px solid white;
+}
+
+.contact,
+p {
+  margin: 0 auto;
+  border-top: 1px solid black;
+}
+
+h2 {
+  text-align: center;
+  text-decoration: underline;
+  text-transform: none;
+  line-height: 20px;
+  padding: 20px;
+  margin: auto auto;
+  font-size: 30px;
+  font-family: "Fira Sans Extra Condensed";
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
+
+.login{
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 0px;
+  transition: color 0.2s;
+}
+
+.login:hover{
+  color: blue;
+}
